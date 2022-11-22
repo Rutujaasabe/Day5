@@ -28,7 +28,7 @@ class Day7
                System.out.println("30 days in this months");
                break;
            case 2:
-                 if(year%4==0 || year%400==0)
+                 if((year%400==0) && ((year%4==0)|| (year%100!=0)))
                          System.out.println("29 days in feb");
                  else
                          System.out.println("28 days in feb");
